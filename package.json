@@ -1,0 +1,26 @@
+{
+  "name": "file-explorer",
+  "version": "1.0.0",
+  "description": "simple file Explorer",
+  "main": "app/main/index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "npm run package:current-platform",
+    "package:current-platform": "electron-packager . file-explorer --overwrite --asar --prune=true --out=build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lotfazardev/maktabProject_fileExplorerElctronJs.git"
+  },
+  "author": "mohammad hossien Lotfazar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lotfazardev/maktabProject_fileExplorerElctronJs/issues"
+  },
+  "homepage": "https://github.com/lotfazardev/maktabProject_fileExplorerElctronJs#readme",
+  "devDependencies": {
+    "electron": "^3.0.0",
+    "electron-packager": "^12.1.2",
+    "extract-zip": "^1.6.7"
+  }
+}

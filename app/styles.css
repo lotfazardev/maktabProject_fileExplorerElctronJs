@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+/*-------------------------
+	ye css reset sade
+--------------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*-------------------------
+	page sade baraye
+-------------------------*/
+
+body {
+  background-color: #2f3277;
+  font: 14px normal Arial, Helvetica, sans-serif;
+  z-index: -4;
+}
+
+a span {
+  pointer-events: none;
+}
