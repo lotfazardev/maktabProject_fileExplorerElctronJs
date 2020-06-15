@@ -17,7 +17,7 @@ function createWindow() {
     newWindow = null;
   });
   // pak kardane menu deafult
-  // Menu.setApplicationMenu(null)
+  Menu.setApplicationMenu(null)
 }
 
 // run app
