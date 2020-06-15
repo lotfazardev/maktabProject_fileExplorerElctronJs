@@ -194,7 +194,6 @@ render = files => {
       }
     }
   }
-
   breadcrumbs.innerHTML = '';
   breadcrumbs.innerHTML = url;
 };

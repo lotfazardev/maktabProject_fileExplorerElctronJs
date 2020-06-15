@@ -215,6 +215,10 @@ h3{
   top: 40px;
 }
 
+.details{
+  direction: rtl;
+}
+
 .filemanager .data li .details {
   color: #b6c1c9;
   font-size: 13px;

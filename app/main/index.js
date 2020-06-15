@@ -6,8 +6,9 @@ let newWindow;
 
 function createWindow() {
   // constract kardane window
-  newWindow = new BrowserWindow({ width: 1000, height: 1000 });
-
+  newWindow = new BrowserWindow({show: false});
+  newWindow.maximize();
+  newWindow.show();
   // load kardane html baraye electron
   newWindow.loadFile(path.join(__dirname, '../index.html'));
   // lisener baraye baste shodan window
@@ -16,7 +17,7 @@ function createWindow() {
     newWindow = null;
   });
   // pak kardane menu deafult
-  Menu.setApplicationMenu(null)
+  // Menu.setApplicationMenu(null)
 }
 
 // run app
