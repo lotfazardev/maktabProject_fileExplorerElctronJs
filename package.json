@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/lotfazardev/maktabProject_fileExplorerElctronJs#readme",
   "devDependencies": {
-    "electron": "^3.0.0",
+    "electron": "^18.3.7",
     "electron-packager": "^12.1.2",
     "extract-zip": "^1.6.7"
   }
